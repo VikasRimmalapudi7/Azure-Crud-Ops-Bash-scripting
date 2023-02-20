@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
 echo "started CRUD "
+az login --service-principal -u 97f1a626-1227-42c5-95bd-7cd5aeff5159 -p 4JH8Q~4MQA6I2vPjc3nwmXXM-b61bO9egWqFtdiS --tenant 41dc1c0c-fa35-47de-a6fc-0feb03c776d2
 az group create  -l eastus -n crudgroup
 az group create  -l eastus -n demorgrg
 
