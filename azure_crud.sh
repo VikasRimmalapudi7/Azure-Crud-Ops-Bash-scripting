@@ -5,7 +5,7 @@ az login --service-principal -u 97f1a626-1227-42c5-95bd-7cd5aeff5159 -p 4JH8Q~4M
 az group create  -l eastus -n crudgroup
 az group create  -l eastus -n demorgrg
 
-az vm create -n crudvm --resource-group crudgroup --image Win2019Datacenter --admin-username vikas --admin-password ********* --generate-ssh-keys
+az vm create -n crudvm --resource-group crudgroup --image Win2019Datacenter --admin-username vikas  --generate-ssh-keys
 
 az appservice plan create -g crudgroup -n crudapp --sku F1
 
